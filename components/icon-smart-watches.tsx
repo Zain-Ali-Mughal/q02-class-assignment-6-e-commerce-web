@@ -11,8 +11,8 @@ const IconSmartWatches: NextPage<IconSmartWatchesType> = ({
 }) => {
   return (
     <div className={[styles.iconsmartWatches, className].join(" ")}>
-      <div className={styles.phoneIcon} width={48} height={48} alt="" />
-      <div
+      {/* <div className={styles.phoneIcon} width={48} height={48} alt="" src="public/vector-1.svg" /> */}
+      <Image
         className={styles.watchesIcon}
         width={12}
         height={6}
@@ -21,7 +21,7 @@ const IconSmartWatches: NextPage<IconSmartWatchesType> = ({
       />
       <div className={styles.cameraIconWrapper}>
         <div className={styles.cameraIconContainer}>
-          <div
+          <Image
             className={styles.cameraIcon}
             width={24}
             height={24}
@@ -35,7 +35,7 @@ const IconSmartWatches: NextPage<IconSmartWatchesType> = ({
           </div>
         </div>
       </div>
-      <div
+      <Image
         className={styles.headphonesIcon}
         width={12}
         height={6}
