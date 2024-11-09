@@ -62,7 +62,7 @@ const BigBanner: NextPage<BigBannerType> = ({
         width={360}
         height={360}
         alt=""
-        src={image41}
+        src="/image-41@2x.png"
         style={image41IconStyle}
       />
     </div>
