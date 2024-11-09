@@ -22,7 +22,7 @@ const CategoryCard: NextPage<CategoryCardType> = ({
           width={48}
           height={48}
           alt=""
-          src={iconPhones}
+          src="public/iconphones.svg"
         />
       </div>
       <div className={styles.phones}>{phones}</div>
