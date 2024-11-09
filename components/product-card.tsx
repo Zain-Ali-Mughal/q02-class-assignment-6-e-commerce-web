@@ -67,7 +67,7 @@ const ProductCard: NextPage<ProductCardType> = ({
       style={productCardStyle}
     >
       <div className={styles.topSection}>
-        <div
+        <Image
           className={styles.icon32pxlike}
           width={32}
           height={32}
@@ -75,14 +75,14 @@ const ProductCard: NextPage<ProductCardType> = ({
           src="/icon32pxlike.svg"
         />
       </div>
-      <Image
-        className={styles.iphone14Pro1}
-        loading="lazy"
-        width={160}
-        height={160}
-        alt=""
-        src={iphone14Pro1}
-      />
+        <Image
+          className={styles.iphone14Pro1}
+          loading="lazy"
+          width={160}
+          height={160}
+          alt=""
+          src={iphone14Pro1 || "\iphone-14-pro-1@2x.png"}
+        />
       <div className={styles.texticon}>
         <div className={styles.info}>
           <div className={styles.appleIphone14} style={appleIPhone14Style}>
