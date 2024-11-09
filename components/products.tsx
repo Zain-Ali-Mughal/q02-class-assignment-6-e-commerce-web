@@ -13,7 +13,7 @@ const Products: NextPage<ProductsType> = ({ className = "" }) => {
       <div className={styles.tags}>
         <div className={styles.selected}>
           <div className={styles.newArrival}>New Arrival</div>
-          <div
+          <Image
             className={styles.line}
             width={100}
             height={2}
